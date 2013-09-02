@@ -1,9 +1,9 @@
-namespace: frontend 
+namespace: backend 
 paths:
-    tests: tests
-    log: tests/_log
-    data: tests/_data
-    helpers: tests/_helpers
+    tests: tests/codeception
+    log: tests/codeception/_log
+    data: tests/codeception/_data
+    helpers: tests/codeception/_helpers
 settings:
     bootstrap: _bootstrap.php
     suite_class: \PHPUnit_Framework_TestSuite
@@ -16,4 +16,4 @@ modules:
             dsn: ''
             user: ''
             password: ''
-            dump: tests/_data/dump.sql
+            dump: tests/codeception/_data/dump.sql

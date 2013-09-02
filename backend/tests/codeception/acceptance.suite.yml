@@ -11,8 +11,10 @@
 class_name: WebGuy
 modules:
     enabled:
-        - PhpBrowser
+        - Selenium2
         - WebHelper
     config:
-        PhpBrowser:
+        Selenium2:
             url: 'http://localhost/myapp/'
+            browser: firefox
+            delay: 500
