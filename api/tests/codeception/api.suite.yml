@@ -1,0 +1,6 @@
+class_name: ApiGuy
+modules:
+    enabled: [REST, ApiHelper]
+    config:
+      REST:
+          url: http://api.app.localhost/v1/

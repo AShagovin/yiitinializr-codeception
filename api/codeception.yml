@@ -1,0 +1,19 @@
+namespace: api 
+paths:
+    tests: tests/codeception
+    log: tests/codeception/_log
+    data: tests/codeception/_data
+    helpers: tests/codeception/_helpers
+settings:
+    bootstrap: _bootstrap.php
+    suite_class: \PHPUnit_Framework_TestSuite
+    colors: true
+    memory_limit: 1024M
+    log: true
+modules:
+    config:
+        Db:
+            dsn: ''
+            user: ''
+            password: ''
+            dump: tests/codeception/_data/dump.sql
