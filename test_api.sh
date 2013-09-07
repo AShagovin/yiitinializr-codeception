@@ -1,2 +1,2 @@
 #!/bin/bash
-$PWD/common/lib/vendor/codeception/codeception/codecept run --config=$PWD/api --steps
+$PWD/common/lib/vendor/bin/codecept run --config=$PWD/api --steps
